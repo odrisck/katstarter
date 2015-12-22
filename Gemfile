@@ -45,3 +45,12 @@ group :development do
   gem 'spring'
 end
 
+#### My Gems ####
+# Bootstrap - Sass #
+gem 'bootstrap-sass', '~> 3.3.6'
+
+# Font Awesome for rails #
+gem "font-awesome-rails"
+
+# Devise
+gem 'devise'
