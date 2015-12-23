@@ -1,3 +1,18 @@
+GIT
+  remote: git://github.com/ctran/annotate_models.git
+  revision: d878a5b784ee0f703e9ee677bc0231dc24159512
+  specs:
+    annotate (2.6.10)
+      activerecord (>= 3.2, <= 4.3)
+      rake (~> 10.4)
+
+GIT
+  remote: git://github.com/nerian/bootstrap-wysihtml5-rails.git
+  revision: a4b413aa1c9d5f614a33c3c1f5731ed8bc6302de
+  specs:
+    bootstrap-wysihtml5-rails (0.3.3.7)
+      railties (>= 3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -132,6 +147,9 @@ GEM
     sdoc (0.4.1)
       json (~> 1.7, >= 1.7.7)
       rdoc (~> 4.0)
+    simple_form (3.2.0)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
     spring (1.6.0)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
@@ -163,7 +181,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  annotate!
   bootstrap-sass (~> 3.3.6)
+  bootstrap-wysihtml5-rails!
   byebug
   coffee-rails (~> 4.1.0)
   devise
@@ -173,6 +193,7 @@ DEPENDENCIES
   rails (= 4.2.5)
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
+  simple_form
   spring
   sqlite3
   turbolinks
