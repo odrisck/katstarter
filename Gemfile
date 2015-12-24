@@ -87,3 +87,5 @@ gem 'friendly_id', '~> 5.1.0'
 
 # Cancancan
 gem 'cancancan', '~> 1.10'
+
+gem 'rails_12factor'
